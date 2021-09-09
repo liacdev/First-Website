@@ -6,6 +6,7 @@
       .flex-container {
         display: flex;
         flex-wrap: nowrap;
+        justify-content: center;
         background-color: DodgerBlue;
       }
 
@@ -20,20 +21,35 @@
     </style>
   </head>
   <body>
-    <h1>Flexible Boxes</h1>
+    <div class="flex-container">
+      <h1>Pick a box, but don't touch it!</h1>
+    </div>
+
     <div class="flex-container">
       <div>1</div>
       <div>2</div>
       <div>3</div>
-      <h1>MyFirstWebsite!</h1>
-      <p>This is not a paragraph</p>
     </div>
 
-    <p>Try to resize the browser window.</p>
-    <p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
-    <p>
-      <strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or
-      earlier versions.
-    </p>
+    <div class="flex-container">
+      <h1>Choose wisely!!</h1>
+    </div>
+
+    <div class="flex-container">
+      <p>You can't click on them yet.</p>
+    </div>
+
+    <div class="flex-container">
+      <p>Try to resize the browser window.</p>
+    </div>
+    <div class="flex-container">
+      <p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+    </div>
+    <div class="flex-container">
+      <p>
+        <strong>Note:</strong> Flexbox is not supported in Internet Explorer 10
+        or earlier versions.
+      </p>
+    </div>
   </body>
 </html>
